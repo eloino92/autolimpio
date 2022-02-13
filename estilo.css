@@ -12,3 +12,10 @@ section#services {
 .img-fluida{
     max-width: 70%;
 }
+
+.registrodato{
+    width: 1000px;
+    height: 350px;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
