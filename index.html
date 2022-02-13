@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="shortcut icon" type="image/png" href="assets/images/Autolimpio.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Limpio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
     <link href="estilo.css" rel="stylesheet" />
     <link  href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Autolimpio</a>
+          <a class="navbar-brand" href="index.html">Autolimpio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
+                <a class="nav-link" href="myservices.html">Servicios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="registro.html">Registrarse</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Mi Cuenta</a>
+                <a class="nav-link" href="myaccount.html">Mi Cuenta</a>
               </li>
             </ul>
           </div>
@@ -54,6 +56,38 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <section id="services">
+        <div class="row">
+            <div class="col-xs-12 col-lg-4 text-center">
+              <img class="testimonio" src="assets/images/lavadointerior.jpg" alt="Interiores" width="400px" height="250px" />
+              <h2>Lavado de interiores</h2>
+              <p>
+                Limpieza de superficies plásticas.
+                Limpieza de tablero.
+                Limpieza de puertas.
+                Tratamiento de manchas dificiles.
+                Tratamiento de neutralización de olor.
+              </p>
+            </div>  
+            <div class="col-xs-12 col-lg-4 text-center">
+              <img class="testimonio" src="assets/images/lavado de exterior.jpg" alt="Exteriores" width="400px" height="250px" />
+              <h2>Lavado de exteriores</h2>
+              <p>
+                Lavado exterior en seco.
+                Limpieza de vidrios exterior y interior.
+                Limpieza de llantas.
+                Renovador de neumaticos.
+                Aplicación de cera.
+              </p>
+            </div>  
+            <div class="col-xs-12 col-lg-4 text-center">
+              <img class="testimonio" src="assets/images/lavadomotor.jpg" alt="Juan Perez" width="400px" height="250px" />
+              <h2>Lavado de Motor</h2>
+              <p>
+                ¿Sabías que tu motor está compuesto por múltiples sensores? Lava tu motor por lo menos una vez al año y mantén tu auto en perfectas condiciones.
+              </p>
+            </div>  
+        </div>
       <script  src ="node_modules/bootstrap/dist/js/bootstrap.bundle.js"> </script>
      <script  src ="node_modules/jquery/dist/jquery.min.js"> </script>
 </body>
